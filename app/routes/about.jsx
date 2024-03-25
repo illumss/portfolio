@@ -16,11 +16,12 @@ export default function About() {
             and Im a web developer
           </h2>
           <p>
-            I am 25 years old and currently residing in the heart of Vejle, Denmark with my boyfriend. My passion lies
-            in web development, and I am always seeking new ways to enhance my skills. I am currently pursuing a top-up
-            Bachelor's degree in Web Development at Business Academy Aarhus, and I am seeking an internship opportunity
-            in the fall of 2024. The ideal internship for me would be at a place where I can work on coding websites,
-            while also having the opportunity to delve a little bit into web design and UX/UI design.
+            I am 25 years old and currently residing in the heart of Vejle with my boyfriend. My passion lies in web
+            development, and I am always seeking new ways to enhance my skills. <br />
+            <br />I am currently pursuing a top-up Bachelor&apos;s degree in Web Development at Business Academy Aarhus,
+            and I am seeking an internship opportunity in the fall of 2024. The ideal internship for me would be at a
+            place where I can work on coding websites, while also having the opportunity to delve a little bit into web
+            design and UX/UI design.
           </p>
         </div>
 
@@ -29,12 +30,12 @@ export default function About() {
         </div>
       </div>
 
+      <h3 className="section-title">Experience</h3>
       <div className="grid-container">
         <div className="image-container">
           <img src="/assets/plaza.jpg" className="pic" alt="Plaza Ure & Smykker" />
         </div>
         <div className="text-container">
-          <h3>Experience</h3>
           <p className="sum1">GRAPHIC DESIGN INTERN</p>
           <p className="sum2">2022, PLAZA Ure & Smykker</p>
           <p className="sum3">
@@ -46,16 +47,16 @@ export default function About() {
           <p className="sum1">STUDENTHELPER FOR WEB</p>
           <p className="sum2">2023-2024, Borgmesterstablen Politik, Analyse & Kommunikation i Vejle Kommune</p>
           <p className="sum3">
-            I am working as a studenthelper at the Mayor's Office for Politics, Analysis & Communication in Vejle
+            I am working as a studenthelper at the Mayor&apos;s Office for Politics, Analysis & Communication in Vejle
             Municipality, where I was tasked with preparing for the implementation of a new website. Additionally, I was
             assigned to design and develop a new website for students in Vejle named StudyIn.
           </p>
         </div>
       </div>
 
+      <h3 className="section-title">Education</h3>
       <div className="grid-container">
         <div className="text-container">
-          <h3 className="subtitle">Uddannelse</h3>
           <p className="sum1">AU IN MULTIMEDIE DESIGN</p>
           <p className="sum2">2021-2023, Erhvervsakadami Aarhus</p>
           <p className="sum3">
@@ -67,7 +68,7 @@ export default function About() {
           <p className="sum1">PBA IN WEB DEVELOPMENT</p>
           <p className="sum2">2023-2025, Erhvervsakadami Aarhus</p>
           <p className="sum3">
-            I am currently pursuing a Professional Bachelor's Degree in Web Development at Business Academy Aarhus,
+            I am currently pursuing a Professional Bachelor&apos;s Degree in Web Development at Business Academy Aarhus,
             where I am learning to work with databases, APIs, JavaScript, React, and much more.
           </p>
         </div>
@@ -77,35 +78,34 @@ export default function About() {
         </div>
       </div>
 
+      <h3 className="section-title">Andet erfaring</h3>
       <div className="other-experience">
-        <p className="titel-three">Andet erfaring</p>
-        <div className="flex">
-          <div className="venstre">
-            <p className="skill">Multimedia Design</p>
-            <ul>
-              <li>Adobe Photoshop</li>
-              <li>Adobe Illustrator</li>
-              <li>Adobe InDesign</li>
-              <li>Adobe Premiere Pro</li>
-              <li>Adobe Lightroom</li>
-              <li>Adobe XD</li>
-              <li>Figma</li>
-              <li>Procreate</li>
-              <li>Canva</li>
-              <li>Klaviyo</li>
-              <li>Issuu</li>
-              <li>OnlyPult</li>
-              <li>Facebook Business Manager</li>
-              <li>UX/UI</li>
-              <li>Illustration</li>
-              <li>Copywriting</li>
-              <li>Branding</li>
-              <li>Content creation</li>
-              <li>Photography</li>
-            </ul>
+        <div className="grid-container">
+          <div className="left">
+            <p className="skill1">Multimedia Design</p>
+
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe InDesign</li>
+            <li>Adobe Premiere Pro</li>
+            <li>Adobe Lightroom</li>
+            <li>Adobe XD</li>
+            <li>Figma</li>
+            <li>Procreate</li>
+            <li>Canva</li>
+            <li>Klaviyo</li>
+            <li>Issuu</li>
+            <li>OnlyPult</li>
+            <li>Facebook Business Manager</li>
+            <li>UX/UI</li>
+            <li>Illustration</li>
+            <li>Copywriting</li>
+            <li>Branding</li>
+            <li>Content creation</li>
+            <li>Photography</li>
           </div>
-          <div className="højre">
-            <p className="skill">Web Development</p>
+          <div className="right">
+            <p className="skill2">Web Development</p>
             <li>HTML</li>
             <li>CSS</li>
             <li>Tailwind</li>
@@ -124,6 +124,10 @@ export default function About() {
             <li>Umbraco</li>
           </div>
         </div>
+      </div>
+
+      <div>
+        <img src="/assets/mix.png" className="mix" alt="Collage of friends and me" />
       </div>
     </div>
   );

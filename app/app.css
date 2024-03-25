@@ -66,13 +66,13 @@ a:hover {
 /* ---------- Button Styling ---------- */
 
 button {
-  color: var(--blue);
+  color: var(--beige);
   font-weight: bold;
   cursor: pointer;
   padding: 1em 2em;
   border: 2px solid var(--blue);
   border-radius: 10px;
-  background-color: var(--beige);
+  background-color: var(--blue);
   transition: 0.5s;
 }
 
@@ -211,6 +211,11 @@ nav a.active {
 }
 
 /* ---------- about styling ---------- */
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 50px;
+}
 
 .grid-container {
   display: grid;
@@ -232,6 +237,44 @@ nav a.active {
 
 .sum3 {
   text-align: left;
+}
+
+.other-experience {
+  justify-content: center;
+}
+
+.left {
+  background-color: var(--blue);
+  margin: 0;
+  padding: 0;
+  color: var(--beige);
+  text-align: right;
+  list-style: none;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.right {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skill1 {
+  color: var(--beige);
+  font-weight: bold;
+}
+
+.skill2 {
+  font-weight: bold;
+}
+
+.mix {
+  width: 80%;
+  max-width: 850px;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 /* ---------- Footer styling ---------- */
