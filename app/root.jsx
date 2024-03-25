@@ -1,12 +1,6 @@
-import {
-  Links,
-  Meta,
-  LiveReload,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-} from "@remix-run/react";
+import { Links, Meta, LiveReload, Outlet, Scripts, ScrollRestoration } from "@remix-run/react";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import appStylesHref from "./app.css";
 
 export const links = () => [{ rel: "stylesheet", href: appStylesHref }];
@@ -26,6 +20,7 @@ export default function App() {
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+        <Footer />
       </body>
     </html>
   );

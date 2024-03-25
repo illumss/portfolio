@@ -3,9 +3,9 @@ import { NavLink } from "@remix-run/react";
 export default function Nav() {
   return (
     <nav>
-      <NavLink to="/posts">Posts</NavLink>
-      <NavLink to="/add-post">Add Post</NavLink>
-      <NavLink to="/profile">Profile</NavLink>
+      <NavLink to="/about">about</NavLink>
+      <NavLink to="/">PORTFOLIO</NavLink>
+      <NavLink to="/contact">contact</NavLink>
     </nav>
   );
 }
