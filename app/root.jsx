@@ -1,12 +1,17 @@
 import {
   Links,
   Meta,
+  LiveReload,
   Outlet,
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import Nav from "./components/Nav";
+import appStylesHref from "./app.css";
 
-export function Layout({ children }: { children: React.ReactNode }) {
+export const links = () => [{ rel: "stylesheet", href: appStylesHref }];
+
+export default function App() {
   return (
     <html lang="en">
       <head>
@@ -16,14 +21,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        {children}
+        <Nav />
+        <Outlet />
         <ScrollRestoration />
         <Scripts />
+        <LiveReload />
       </body>
     </html>
   );
-}
-
-export default function App() {
-  return <Outlet />;
 }
