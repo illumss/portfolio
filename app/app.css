@@ -387,29 +387,15 @@ nav a.active {
   align-items: center;
 }
 
-.special-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2em;
-  padding-top: 150px;
-}
-
-.socials-title {
-  text-align: center;
-}
-
-.social-icon-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
-  justify-content: center;
-  max-width: 30em;
-  margin: 0 auto;
-}
-
 .message {
   text-align: center;
   max-width: 30em;
+}
+/* ---------- ASIAN FOOD CLUB styling ---------- */
+
+.first-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* ---------- Footer styling ---------- */
@@ -421,20 +407,61 @@ footer {
   text-align: center;
 }
 
+.socials-title {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  color: var(--beige);
+}
+
+.socials-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.icons {
+  font-size: 1.5em;
+  width: 2em;
+}
+
+.icons:hover {
+  color: var(--light-blue);
+  transition: 0.5s;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  padding-top: 1.8em;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  padding-top: 0.8em;
+}
+
+.copyright {
+  padding-top: 3em;
+  font-size: 0.8em;
+}
+
 footer p {
   color: var(--beige);
 }
 
-footer li {
-  color: var(--beige);
-  list-style: none;
-}
-
 footer a {
   color: var(--beige);
+  font-size: 0.8em;
+  font-style: italic;
 }
 
 /*ændrer dette */
 footer a:hover {
-  color: var(--beige);
+  color: var(--light-blue);
 }

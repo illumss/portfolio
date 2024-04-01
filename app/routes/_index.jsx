@@ -28,9 +28,9 @@ export default function Index() {
             <div className="descrip-box">
               <p className="project-description">
                 I built an event platform where users can create and sign up for events. The project had to meet a
-                number of criteria and requirements that we learned during the first semester. I worked with React
-                Remix, MongoDB Atlas, Mongoose schema, CSS, and Remix-auth to build the site, and finally deployed it on
-                Render.com.
+                number of criteria and requirements that we learned during our 1st semester of web development. I worked
+                with React Remix, MongoDB Atlas, Mongoose schema, CSS, and Remix-auth to build the site, and finally
+                deployed it on Render.com.
               </p>
             </div>
             <Link to="/asianfoodclub" className="button-link">
@@ -45,10 +45,10 @@ export default function Index() {
             <p className="project-title">MARKBLOMST</p>
             <div className="descrip-box">
               <p className="project-description">
-                This was a group assignment and my group and I chose to focus on Markblomst, a recently established
-                company specializing in sustainable and organic flower bouquets. Our goal was to develop a digital
-                prototype for Markblomst that would add value for both the customers and the company. Throughout the
-                project, we integrated theories, methods, and relevant tools from both the 2nd and 1st semester.
+                This project was a group assignment and we chose to focus on Markblomst, a recently established company
+                specializing in sustainable and organic flower bouquets. Our goal was to develop a digital prototype for
+                Markblomst that would add value for both the customers and the company. Throughout the project, we
+                integrated theories, methods, and relevant tools from both the 2nd and 1st semester.
               </p>
             </div>
             <Link to="/markblomst" className="button-link">
@@ -70,7 +70,7 @@ export default function Index() {
             <div className="descrip-box">
               <p className="project-description">
                 My role at Plaza primarily involved designing catalogs such as their wedding and Christmas catalogs, as
-                well as signage for Black Friday, Cyber Monday, and various stores across Denmark. Additionally, I
+                well as signage for Black Friday, Cyber Monday, and for various stores across Denmark. Additionally, I
                 managed their Facebook and Instagram accounts, where I created and posted content and responded to
                 inquiries. I also participated in developing a content plan for TikTok.
               </p>
