@@ -4,20 +4,18 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="socials-list">
-        <h3 className="socials-title">Check out my socials!</h3>
+      <h3 className="socials-title">Check out my socials!</h3>
 
-        <div className="socials-icons">
-          <Link to="https://www.linkedin.com/in/alberteillum" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="icons" />
-          </Link>
-          <Link to="https://github.com/illumss" target="_blank" rel="noopener noreferrer">
-            <FaGithub className="icons" />
-          </Link>
-          <Link to="https://dk.pinterest.com/illumalberte/" target="_blank" rel="noopener noreferrer">
-            <FaPinterest className="icons" />
-          </Link>
-        </div>
+      <div className="socials-icons">
+        <Link to="https://www.linkedin.com/in/alberteillum" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin className="icons" />
+        </Link>
+        <Link to="https://github.com/illumss" target="_blank" rel="noopener noreferrer">
+          <FaGithub className="icons" />
+        </Link>
+        <Link to="https://dk.pinterest.com/illumalberte/" target="_blank" rel="noopener noreferrer">
+          <FaPinterest className="icons" />
+        </Link>
       </div>
 
       <div className="nav-list">
@@ -27,9 +25,9 @@ function Footer() {
       </div>
 
       <div className="project-list">
-        <a href="/about">Asian Food Club</a>
-        <a href="/contact">Markblomst</a>
-        <a href="/faq">Graphic Design Intern</a>
+        <a href="/asianfoodclub">Asian Food Club</a>
+        <a href="/markblomst">Markblomst</a>
+        <a href="/internship">Graphic Design Intern</a>
       </div>
 
       <div className="copyright">

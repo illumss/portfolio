@@ -19,13 +19,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-
-      <div>
-        <p className="message">
-          If you have any questions about me, my projects or my upcoming internship feel free to send me an email, call
-          me or connect with me on LinkedIn! I am always open to new opportunities and collaborations.
-        </p>
-      </div>
     </div>
   );
 }
