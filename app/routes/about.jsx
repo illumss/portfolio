@@ -9,15 +9,15 @@ export default function About() {
         <h1>HI!</h1>
       </div>
 
-      <div className="grid-container">
+      <div className="grid-container-one">
         <div>
           <h2>
             My name is Alberte Illum <br />
-            and Im a web developer
+            and I&apos;m a web developer
           </h2>
           <p>
-            I am 25 years old and currently residing in the heart of Vejle with my boyfriend. My passion lies in web
-            development, and I am always seeking new ways to enhance my skills. <br />
+            I am 25 years old and residing in the heart of Vejle with my boyfriend. My passion lies in web development,
+            and I am always seeking new ways to enhance my skills. <br />
             <br />I am currently pursuing a top-up Bachelor&apos;s degree in Web Development at Business Academy Aarhus,
             and I am seeking an internship opportunity in the fall of 2024. The ideal internship for me would be at a
             place where I can work on coding websites, while also having the opportunity to delve a little bit into web
@@ -25,17 +25,17 @@ export default function About() {
           </p>
         </div>
 
-        <div>
-          <img src="/assets/mig_b&w.jpg" className="pic" alt="Alberte Illum" />
+        <div className="pic-box">
+          <img src="/assets/mig_b&w.jpg" className="me" alt="Alberte Illum" />
         </div>
       </div>
 
-      <h3 className="section-title">Experience</h3>
       <div className="grid-container">
-        <div className="image-container">
-          <img src="/assets/plaza.jpg" className="pic" alt="Plaza Ure & Smykker" />
+        <div className="image-container-left">
+          <img src="/assets/plaza.jpg" className="pic2" alt="Plaza Ure & Smykker" />
         </div>
         <div className="text-container">
+          <h3 className="section-title">Experience</h3>
           <p className="sum1">GRAPHIC DESIGN INTERN</p>
           <p className="sum2">2022, PLAZA Ure & Smykker</p>
           <p className="sum3">
@@ -54,9 +54,9 @@ export default function About() {
         </div>
       </div>
 
-      <h3 className="section-title">Education</h3>
       <div className="grid-container">
         <div className="text-container">
+          <h3 className="section-title">Education</h3>
           <p className="sum1">AU IN MULTIMEDIE DESIGN</p>
           <p className="sum2">2021-2023, Erhvervsakadami Aarhus</p>
           <p className="sum3">
@@ -73,14 +73,14 @@ export default function About() {
           </p>
         </div>
 
-        <div className="image-container">
-          <img src="/assets/mig.jpg" className="pic" alt="Alberte Illum" />
+        <div className="image-container-right">
+          <img src="/assets/mig.jpg" className="pic2" alt="Alberte Illum" />
         </div>
       </div>
 
-      <h3 className="section-title">Andet erfaring</h3>
       <div className="other-experience">
-        <div className="grid-container">
+        <h3 className="section-title-unique">Andet erfaring</h3>
+        <div className="grid-container-one">
           <div className="left">
             <p className="skill1">Multimedia Design</p>
 
